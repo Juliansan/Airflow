@@ -12,7 +12,7 @@ defautl_args = {
     'email_on_failure': True,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),  # Tempo de espera entre as tentativas
+    'retry_delay': timedelta(seconds=5),  # Tempo de espera entre as tentativas
 }
 
 dag = DAG(
